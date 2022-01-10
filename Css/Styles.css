@@ -1,0 +1,113 @@
+/* 
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+ */
+body {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 10% 0;
+    margin: 0%;
+}
+
+p {
+    padding-bottom: 10%;
+    line-height: 1.5;
+}
+
+.row {
+    margin: 10% auto 0;
+    justify-content: center;
+    width: 80%;
+}
+
+.col-md-3 {
+    padding: 4%;
+}
+
+.Sedans {
+    border-radius: .5rem 0 0 .5rem;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn {
+    border-radius: 2rem;
+    margin-top: 5%;
+}
+
+.btn-lg {
+    font-size: 15px;
+    padding: .6rem;
+    width: 70%;
+}
+
+.ButtonOne {
+    color: hsl(31, 77%, 52%);
+}
+
+.ButtonOne:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-width: 2px;
+}
+
+.ButtonTwo {
+    color: hsl(184, 100%, 22%);
+}
+
+.ButtonTwo:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-width: 2px;
+}
+
+.ButtonThree {
+    color: hsl(179, 100%, 13%);
+}
+
+.ButtonThree:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-width: 2px;
+}
+
+.Suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    border-radius: 0 .5rem .5rem 0;
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:768px ) {
+    .col-md-3 {
+        padding: 15%;
+    }
+    
+    .Sedans {
+        border-radius: .5rem .5rem 0 0;
+    }
+    .Luxury {
+        border-radius: 0 0 .5rem .5rem;
+    }
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    color: darkgray;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
